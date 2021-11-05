@@ -1,5 +1,7 @@
 from picamera import PiCamera, Color
 
+camera = PiCamera()
+
 camera.start_preview()
 camera.annotate_background = Color('blue')
 camera.annotate_foreground = Color('yellow')
